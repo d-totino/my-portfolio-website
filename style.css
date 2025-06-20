@@ -1,0 +1,49 @@
+/* keep sizing consistent */
+* {
+  box-sizing: border-box;
+}
+
+/* basic body setup */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, white, #ffcccc);
+  color: #333;
+  text-align: center;
+}
+
+/* red header/footer with white text */
+header, footer {
+  background: #FF0000;
+  color: white;
+  padding: 1em;
+}
+
+/* nav links style */
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* underline nav on hover */
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* spacing around main content */
+main {
+  padding: 2em;
+}
+
+/* image size and style */
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 1em;
+  border: 4px solid #FF0000;
+}

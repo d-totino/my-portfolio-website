@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- made homepage look more appealing with some additional styles -->
+  <style>
+    .intro-section {
+      background-color: #fff5f5;
+      padding: 2em;
+      margin: 2em auto;
+      max-width: 800px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+    }
+
+    .intro-section h2 {
+      color: #cc0000;
+    }
+
+    .intro-section p {
+      line-height: 1.6;
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: #b30000;
+    }
+
+    .home-photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #FF0000;
+      margin: 1.5em 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- page header and nav -->
+  <header>
+    <h1>My Portfolio Website</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- main content -->
+  <main>
+    <div class="intro-section">
+      <h2>Welcome to My Portfolio!</h2>
+      <img src="headshot.jpg" alt="Headshot of Daniel Totino" class="home-photo">
+      <p>Hi! I'm <span class="highlight">Daniel Totino</span>, a student at <span class="highlight">York University</span> studying Information Technology.</p>
+      <p>This website was made for an assignment in my ITEC 3020 course. It's a personal portfolio where I have to apply content learned in class to develop the website!</p>
+      <p>Use the navigation above to learn more <span class="highlight">about</span> me, explore my <span class="highlight">projects</span>, read my <span class="highlight">blog</span>, and get in <span class="highlight">contact</span>.</p>
+    </div>
+  </main>
+
+  <!-- page footer -->
+  <footer>
+    <p>ITEC 3020 - Portfolio Website Assignment</p>
+  </footer>
+</body>
+</html>
