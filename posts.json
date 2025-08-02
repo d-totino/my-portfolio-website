@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Implementing Light and Dark Mode",
+    "date": "July 2025",
+    "content": "Adding light and dark mode was one of my favourite parts of the project because on all of my devices and apps I tend to use dark mode, so implementing this to my site was a really interesting thing to do. I implemented this feature using JavaScript to toggle a CSS class on the <body> element. To improve user experience, I stored the selected mode in localStorage, ensuring that whatever option the user chooses stays if they refresh the page. This feature taught me how to combine JavaScript and CSS effectively for real world user interface enhancements."
+  },
+  {
+    "title": "Dynamic Header and Footer with Fetch API",
+    "date": "July 2025",
+    "content": "Instead of writing the same header and footer across all five pages, I used the Fetch API to load them dynamically from separate HTML files. This makes the site easier to maintain because any future changes only require editing one file instead of five."
+  },
+  {
+    "title": "Loading Blog Posts Dynamically",
+    "date": "July 2025",
+    "content": "For the blog page, I replaced static HTML posts with a dynamic solution using a JSON file. This approach makes adding new posts much easier because I can simply update posts.json without touching the HTML files. I used Fetch to retrieve the JSON data and JavaScript to generate HTML elements for each post."
+  },
+  {
+    "title": "Reflection on the Project",
+    "date": "July 2025",
+    "content": "This project taught me a lot about web development fundamentals and dynamic content management. I learned not only how to create a responsive and styled site using HTML and CSS but also how to integrate JavaScript for realworld functionality. The biggest lessons were how to use Fetch API for modular components, how to work with JSON, and how to implement user friendly features like dark mode."
+  }
+]
+
